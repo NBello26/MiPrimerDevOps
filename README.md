@@ -2,10 +2,10 @@
 
 Este es un proyecto inicial que sigue buenas prácticas de DevOps. Fue creado como parte de una actividad educativa para aprender sobre control de versiones, automatización de flujos de trabajo y colaboración en equipos de desarrollo.
 
-
 ## 📌 Objetivo del Proyecto
 
 Aprender a:
+
 - Utilizar Git y GitHub de manera profesional.
 - Trabajar con ramas y commits significativos.
 - Configurar flujos de trabajo con GitHub Actions.
@@ -26,10 +26,10 @@ MiPrimerDevOps/
 ├── LICENSE.md # Licencia del proyecto
 └── .markdownlint.json # Reglas de validación Markdown
 
-
 ## Automatización (CI/CD)
 
 Este repositorio cuenta con un workflow de GitHub Actions que:
+
 - Se activa en cada `push` o `pull request`.
 - Ejecuta la acción `DavidAnson/markdownlint-cli2-action@v20`.
 - Valida todos los archivos `.md` según las reglas definidas en `.markdownlint.json`.
@@ -40,6 +40,7 @@ Puedes ver los resultados en la pestaña [Actions](https://github.com/NBello26/M
 ## Flujo de trabajo con ramas
 
 Usamos el siguiente flujo de ramas:
+
 - `main`: Rama principal, estable.
 - `feature/changelog-doc`: Para documentación de CHANGELOG.md.
 - `feature/contributing-doc`: Para documentación de CONTRIBUTING.md.
