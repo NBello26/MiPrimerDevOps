@@ -42,8 +42,8 @@ Puedes ver los resultados en la pestaña [Actions](https://github.com/NBello26/M
 Usamos el siguiente flujo de ramas:
 - `main`: Rama principal, estable.
 - `feature/changelog-doc`: Para documentación de CHANGELOG.md.
-- 'feature/contributing-doc`: Para documentación de CONTRIBUTING.md.
-- 'feature/workflow-markdown`: Para creación de workflow que permite verificar correcto formato de archivos md.
+- `feature/contributing-doc`: Para documentación de CONTRIBUTING.md.
+- `feature/workflow-markdown`: Para creación de workflow que permite verificar correcto formato de archivos md.
 
 ## ¿Cómo contribuir?
 
