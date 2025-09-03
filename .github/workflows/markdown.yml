@@ -16,4 +16,4 @@ jobs:
       - name: Run markdownlint-cli2
         uses: DavidAnson/markdownlint-cli2-action@v20
         with:
-          config: "markdownlint.json"
+          config: ".markdownlint.json"
