@@ -1,12 +1,19 @@
-name: Markdown
+name: Markdown lint
 
-on: [push, pull_request]
+on:
+  push:
+    branches: [ main, feature/changelog-doc, feature/contributing-doc, feature/workflow-markdown]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  markdown-lint:
+  markdownlint:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: DavidAnson/markdownlint-cli2-action@v20
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run markdownlint-cli2
+        uses: DavidAnson/markdownlint-cli2-action@v20
         with:
           config: .markdownlint.json
